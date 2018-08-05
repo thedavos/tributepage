@@ -1,13 +1,80 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Tribute Page</title>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        
+        <div class="hero">
+            <header class="header">
+                <div id="img-div">
+                    <img src="assets/cvander.jpg" alt="Foto de Christian" id="image">
+                    <h1 id="title">Christian Van Der Henst</h1>
+                    <p id="img-caption">Christian Van Der Henst es un guatemalteco pionero en tecnologías web que está destacando en Silicon Valley y es muy reconocido
+                    en toda Latinoamérica por su extensa trayectoria educando a miles de personas, a través de los portales que ha creado. 
+                    <span id="tribute-info">
+                        En 2012, Christian co-fundó a compañía Mejorando.la, una plataforma de educación online diferente, que ha educado a más de 80 mil personas de Latinoamérica y España en las últimas tecnologías.</span>
+                    </p>    
+                    <nav class="header__nav">
+                        <a href="#main" class="nav__links">History and Quotes</a>
+                        <a href="#footer" class="nav__links">Información Adicional</a>
+                    </nav>
+                </div>
+            </header>
+            <main id="main">
+                <section class="main__history">
+                    <div class="history">
+                        <ul class="history__timeline">
+                            <li class="timeline__item">Nació en Guatemala un 9 de marzo de 1982, pero se considera un nómada digital y ciudadano del mundo.</li>
+                            <li class="timeline__item">Ha recorrido el mundo (literalmente) compartiendo sus grandes pasiones con la cantidad de amigos que ha hecho en los más
+                            de 20 países a los que ha viajado.</li>
+                            <li class="timeline__item">Además de la web y la educación, su gran pasión es la cocina.</li>
+                        </ul>
+                    </div>
+                    <div class="history__title">
+                        <p class="history__title__text">History</p>
+                    </div>
+                </section>
+                <section class="main__quotes">
+                    <div class="quotes__title">
+                        <p class="quotes__title__text">Quotes</p>
+                    </div>
+                    <div class="quotes">
+                        <ul class="history__quotes">
+                           <li class="quotes__item"><blockquote class="quote"><p>Es el nombre de nuestra plataforma, es nuestra plaza de educación y tiene un potencial de ser realmente global. Con
+                        mejorando.la estábamos muy limitados al mercado en español y al mercado latinoamericano también. Charlando con nuestros socios
+                        en YC nos decían, buen nombre y el .com lo tienen.. Vale la pena el cambio.” menciona Christian</p></blockquote></li> 
+                           <li class="quotes__item"><blockquote class="quote"><p>Se me ocurría que sería la comunidad hispana para Webmasters.. Luego se me ocurrió buscar un nombre relacionado con Webmasters..
+                        Y allí surgió la idea de traducir este término, lo que le dio el nombre de Maestros del Web a este espacio.</p></blockquote></li> 
+                           <li class="quotes__item"><blockquote class="quote"><p>Viajen, conozcan gente, inspirennos a los que ya llevamos tiempo en esto y a veces nos creemos que entendemos algo. Demuestrennos
+                        que no tenemos ni idea y que ustedes vendrán a reinventarlo todo.</p></blockquote></li> 
+                        </ul>
+                    </div>
+                </section>
+            </main>
+            <footer class="footer" id="footer">
+                <div class="footer__top">
+                    <p class="footer__info">Información Adicional</p>
+                    <a href="https://platzi.com/@cvander/" id="tribute-link" target="_blank">
+                        <img src="https://static.platzi.com/static/organizations/images/profile-badges/teambadge.png" alt="platzi logo">
+                    </a>
+                </div>
+                <div class="footer__redes">
+                   <a href="https://twitter.com/cvander" class="redes__link" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                   </a> 
+                   <a href="https://www.instagram.com/cvandercito/" class="redes__link" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                   </a> 
+                   <a href="https://www.facebook.com/cvander" class="redes__link" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                   </a> 
+                </div>
+            </footer>
+        </div>
     </body>
 </html>
